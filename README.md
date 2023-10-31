@@ -1,4 +1,4 @@
-## Recipies
+## Recipes
 
 Here are some of my battle tested recipes. Most of them have a bias towards low carb and vegetarian based.
 The majority of them are adapted from Mob kitchen, Youtube, Instagram and Jamie Olivers 5 Ingredients book.
