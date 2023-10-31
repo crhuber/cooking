@@ -1,10 +1,14 @@
-# What's next
+## Recipies
 
-* Install a syntax highlighting package for your text editor. We have packages for SublimeText and VSCode. See  [cooklang.org](https://cooklang.org/docs/syntax-highlighting/) for full instructions.
-* Add your own recipes. Dive into the Cook ecoysystem and discover how easy it is to write in CookLang. It's the best way to learn the [CookLang syntax](https://cooklang.org/docs/spec/).
-* Check out our [tips and tricks](https://cooklang.org/docs/best-practices/) page.
+Here are some of my battle tested recipes. Most of them have a bias towards low carb and vegetarian based.
+The majority of them are adapted from Mob kitchen, Youtube, Instagram and Jamie Olivers 5 Ingredients book.
 
-### Read the recipe
+### Using the recipes
+
+Clone this repo and run `sync2icloud.sh`.
+Then download the iOS App https://cooklang.org/app/
+
+### Read the recipe using the command line
 
 ```sh
 cook recipe read "Root Vegetable Tray Bake.cook"
