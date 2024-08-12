@@ -1,0 +1,13 @@
+# https://taskfile.dev
+
+version: '3'
+
+tasks:
+  lint:
+    cmds:
+      - ls recipes/*.cook | xargs -n1 cook recipe validate
+      - bash lint-groceries.sh
+  sync:
+    cmds:
+      - rsync -avh --delete recipes/* "/Users/$USER/Library/Mobile Documents/iCloud~org~cooklang~cooklangapp/Documents/"
+
