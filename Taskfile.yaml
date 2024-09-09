@@ -5,7 +5,7 @@ version: '3'
 tasks:
   lint:
     cmds:
-      - ls recipes/*.cook | xargs -n1 cook recipe validate
+      - ls -1 "recipes/*.cook" | xargs -n1 cook recipe validate
       - bash lint-groceries.sh
   sync:
     cmds:
