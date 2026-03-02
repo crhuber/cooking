@@ -6,8 +6,7 @@ tasks:
   lint:
     dir: recipes
     cmds:
-      - ls -1 *.cook | xargs -I {} cook recipe read {}
-      - ls -1 *.cook | xargs -I {} cook shopping-list {} -p  | cut -f 1
+      - cook doctor
   sync:
     cmds:
       - rsync -avh --delete recipes/* "/Users/$USER/Library/Mobile Documents/iCloud~org~cooklang~cooklangapp/Documents/"
