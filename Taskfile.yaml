@@ -7,7 +7,7 @@ tasks:
     dir: recipes
     cmds:
       - cook doctor
-  sync:
+  deploy:
     cmds:
       - rsync -avh --delete recipes/* "/Users/$USER/Library/Mobile Documents/iCloud~org~cooklang~cooklangapp/Documents/"
 
